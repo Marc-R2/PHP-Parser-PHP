@@ -6,6 +6,10 @@ part 'PhpParser/Comment/Doc.dart';
 
 part 'PhpParser/Builder.dart';
 
+part 'PhpParser/BuilderFactory.dart';
+
+part 'PhpParser/BuilderHelpers.dart';
+
 part 'PhpParser/Comment.dart';
 
 part 'PhpParser/Node.dart';
