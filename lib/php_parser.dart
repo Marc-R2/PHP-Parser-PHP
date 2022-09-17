@@ -12,4 +12,12 @@ part 'PhpParser/BuilderHelpers.dart';
 
 part 'PhpParser/Comment.dart';
 
+part 'PhpParser/compatibility_tokens.dart';
+
+part 'PhpParser/ConstExprEvaluationException.dart';
+
+part 'PhpParser/ConstExprEvaluator.dart';
+
+part 'PhpParser/Error.dart';
+
 part 'PhpParser/Node.dart';
