@@ -1,7 +1,7 @@
 part of '../../php_parser.dart';
 
-class Doc extends Comment {
-  Doc({
+class DocComment extends Comment {
+  DocComment({
     required super.text,
     super.startLine = -1,
     super.startFilePos = -1,

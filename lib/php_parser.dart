@@ -1,5 +1,6 @@
 library php_parser;
 
+import 'dart:convert';
 import 'dart:math';
 
 import 'package:json_annotation/json_annotation.dart';
@@ -23,5 +24,7 @@ part 'PhpParser/ConstExprEvaluator.dart';
 part 'PhpParser/Error.dart';
 
 part 'PhpParser/ErrorHandler.dart';
+
+part 'PhpParser/JsonDecoder.dart';
 
 part 'PhpParser/Node.dart';

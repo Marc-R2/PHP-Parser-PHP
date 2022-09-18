@@ -134,9 +134,9 @@ class BuilderHelpers {
     throw Exception('Invalid value');
   }
 
-  static Doc normalizeDocComment(dynamic docComment) {
-    if (docComment is Doc) return docComment;
-    if (docComment is String) return Doc(text: docComment);
+  static DocComment normalizeDocComment(dynamic docComment) {
+    if (docComment is DocComment) return docComment;
+    if (docComment is String) return DocComment(text: docComment);
     throw Exception(
       r'Doc comment must be a string or an instance of PhpParser\Comment\Doc',
     );

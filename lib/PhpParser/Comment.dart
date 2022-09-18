@@ -113,7 +113,7 @@ class Comment {
 
   @override
   Map<String, dynamic> toJson() => {
-        'nodeType': this is Doc ? 'DocComment' : 'Comment',
+        'nodeType': this is DocComment ? 'DocComment' : 'Comment',
         'text': _text,
         'startLine': _startLine,
         'startFilePos': _startFilePos,

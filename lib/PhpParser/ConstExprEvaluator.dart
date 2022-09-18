@@ -51,7 +51,7 @@ class ConstExprEvaluator {
     var array = Array();
     for (final item in expr.items) {
       if (item.key != null) {
-        array.setKey(_evaluate(item.key)) = _evaluate(item.value);
+        array.setKey(_evaluate(item.key), _evaluate(item.value));
       }
       elseif(item.unpack) {
         array = array_merge(array, _evaluate(item.value));

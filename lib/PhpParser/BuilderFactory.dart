@@ -146,4 +146,8 @@ class Array {
   Array.fromList(List<dynamic> list) : array = list.asMap();
 
   final Map array;
+
+  void setKey(key, value) => array[key] = value;
+
+  dynamic getKey(key) => array[key];
 }
