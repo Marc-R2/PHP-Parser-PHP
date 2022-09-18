@@ -22,4 +22,6 @@ part 'PhpParser/ConstExprEvaluator.dart';
 
 part 'PhpParser/Error.dart';
 
+part 'PhpParser/ErrorHandler.dart';
+
 part 'PhpParser/Node.dart';
